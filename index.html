@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bust Ticket | Landing Page</title>
+
+    <!--Font Awsome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Tailwind & Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -143,7 +146,7 @@
 
 <!------------------------------------------------- Seat plan section ------------------------------------------->
 
-<div class="px-[230px] border-[#1DD100] rounded-[10px] bg-gray-300">
+<div class=" border-[#1DD100] rounded-[10px] bg-gray-300">
     <div class="text-center p-3">
         <h1 class="text-3xl font-extrabold">P.H Paribahan</h1>
         <p class="seatplan-title-para pl-[120px] pr-[120px]  ">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
@@ -176,9 +179,7 @@
                        <tr class="table-row2 border-dashed border-b-slate-400">
                         <td class="table-row12 text-left">Departure Time</td>
                         <td class="table-row22 text-right font-bold">9:00 PM</td>
-                         
                        </tr>
-                     
                        </tbody>
                    </table>
                    <div class="route-bottom m-3">
@@ -187,25 +188,50 @@
                     <button class="hover:bg-slate-200 btn btn-default bg-slate-200 font-normal text-black">Est. Time - 11 Hour</button>  
                 </div>
               </div>
-            
             </div>
-            
             <div class=" flex flex-col stat justify-center items-center">
                 <img class="stat-img justify-center" src="./fare.png" alt="" width="50px" height="50px">
               <div class="stat-value text-2xl p-0">550 Taka</div>
               <p class="coupon-right-bottom mt-0">per seat</p>
               </div>
-            
           </div>
-       
           </div>
-         
+
+
+<!---------------- Seat selection section ------------------------>
+<div class="coupon text-center mt-4 mb-9">
+  <div class="stats bg-white text-black mr-7">
+      <div class="stat w-[550px]">
+        <div class="seatplan-sec1-heading flex flex-1 justify-between">
+          <div class="seatplan-sec1-title flex flex-1 ">
+          <div class="seatplan-sec1-left-para text-left ml-4 mt-0 pt-0 "><h2 class="seatplan-sec1-left-para-title font-bold">Select Your Seat</h2>
+          </div>
+          </div> 
+        </div>
+        <div class="route mt-3 border-red-600 border-b-slate-600 ">
+          <div class=" flex flex-row available-selected justify-between m-3 ">
+            <div class=" flex flex-row available text-start "> <img src="./seat-gray.png" alt="" width="25px" height="25px"><span>Available</span></div>
+            <div class="flex flex-row selected "><img src="./seat-green.png" alt="" width="25px" height="25px"><span class="selected-text text-[#1DD100]">Selected</span></div>
+          </div>
+          <div class="seat-driver">
+
+            <button class="hover:bg-slate-200 btn btn-default bg-slate-200 font-normal text-black"><i class="fa-solid fa-guitar"></i>Driver</i> </button>  
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+      <div class=" flex flex-col stat justify-center items-center">
+          <img class="stat-img  justify-center" src="./fare.png" alt="" width="50px" height="50px">
+        <div class="stat-value  w-[350px] text-2xl p-0">550 Taka</div>
+        <p class="coupon-right-bottom mt-0">per seat</p>
+        </div>
+    </div>
     </div>
 
-
-
-
-
+            
 <!------------------------------------------------- footer section ------------------------------------------->
 <footer class="footer  p-10 bg-neutral text-neutral-content justify-evenly">
           <aside>
